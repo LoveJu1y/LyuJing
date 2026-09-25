@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LyuJing's personal homepage — Ph.D. student researching embodied intelligence, VLA models, world models, and agentic robotics." />
+    <title>LyuJing — Personal Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="wordmark" href="#home">LyuJing</a>
+        <nav aria-label="Main navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#work">Selected Work</a>
+          <a href="#experience">Research Experience</a>
+          <a href="#awards">Awards</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="shell">
+      <section class="intro">
+        <aside class="profile-column">
+          <div class="profile-frame"><img src="pics/me.png" alt="Portrait of LyuJing" /></div>
+          <div class="profile-links">
+            <a href="https://github.com/LoveJu1y" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar <span>↗</span></a>
+          </div>
+        </aside>
+        <div class="intro-copy">
+          <h1>LyuJing</h1>
+          <p class="role">Ph.D. student · Institute of Automation, Chinese Academy of Sciences</p>
+          <p>My name is LyuJing. I received my bachelor's degree from the <strong>Department of Electronic Engineering</strong> at <strong>Tsinghua University</strong>. I am currently a second-year joint Ph.D. student at the <strong>Institute of Automation, Chinese Academy of Sciences</strong> and the <strong>Beijing Academy of Artificial Intelligence</strong>, advised by Prof. <strong>Zhongyuan Wang</strong> and Prof. <strong>Xiaoguang Zhao</strong>.</p>
+          <p>My research interests focus on embodied intelligence, <strong>vision-language-action models</strong>, <strong>world models</strong>, and <strong>agentic robotics</strong>.</p>
+          <p>Currently, I am at the Embodied Intelligence Research Center of the Beijing Academy of Artificial Intelligence, advised by <strong>Pengwei Wang</strong>.</p>
+          <p class="contact-line">I am always happy to discuss research and collaboration. You can find me on <a href="https://github.com/LoveJu1y" target="_blank" rel="noreferrer">GitHub</a>.</p>
+        </div>
+      </section>
+
+      <section id="news" class="content-section news-section">
+        <h2>&#x1F525; News</h2>
+        <ul class="news-list">
+          <li><span class="news-date">[2026.06]</span> &#x1F525; Released <a href="https://arxiv.org/abs/2606.30534" target="_blank" rel="noreferrer">Orca: The World is in Your Mind</a>.</li>
+          <li><span class="news-date">[2026.05]</span> &#x1F389; <a href="https://arxiv.org/abs/2602.01166" target="_blank" rel="noreferrer">LaRA-VLA</a> was accepted by <strong>ICML 2026</strong>.</li>
+        </ul>
+      </section>
+
+      <section id="work" class="content-section">
+        <h2>Selected Work</h2>
+        <div class="work-list">
+          <article class="work-row">
+            <a class="work-image" href="pics/Orca.png" target="_blank" rel="noreferrer"><span class="work-image-label">2026</span><img src="pics/Orca.png" alt="Orca project visual" /></a>
+            <div class="work-copy"><a class="work-title" href="https://arxiv.org/abs/2606.30534" target="_blank" rel="noreferrer">Orca: The World is in Your Mind.</a><p class="work-role">Core Contributor <span></span>Technical report 2026</p><div class="work-links"><a href="https://github.com/orca-wm/Orca" target="_blank" rel="noreferrer">Project</a><span>|</span><a href="https://arxiv.org/abs/2606.30534" target="_blank" rel="noreferrer">Paper</a><span>|</span><a href="https://github.com/orca-wm/Orca" target="_blank" rel="noreferrer">Code</a><a class="star-badge" href="https://github.com/orca-wm/Orca" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/orca-wm/Orca?style=flat&label=Stars" alt="GitHub stars for Orca" /></a></div><p class="work-description">Orca is a world model that shifts the learning target from next-token, next-frame, or next-action prediction to next-state prediction. It learns a unified world latent representation from multimodal world signals and supports downstream readouts for language, vision, and action.</p></div>
+          </article>
+          <article class="work-row">
+            <a class="work-image" href="pics/LaRA-VLA.png" target="_blank" rel="noreferrer"><span class="work-image-label">2026</span><img src="pics/LaRA-VLA.png" alt="LaRA-VLA research figure" /></a>
+            <div class="work-copy"><a class="work-title" href="https://arxiv.org/abs/2602.01166" target="_blank" rel="noreferrer">Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models.</a> <p class="work-role">Co-First Author <span></span> ICML2026</p><div class="work-links"><a href="https://github.com/LoveJu1y/LaRA-VLA" target="_blank" rel="noreferrer">Project</a><span>|</span><a href="https://arxiv.org/abs/2602.01166" target="_blank" rel="noreferrer">Paper</a><span>|</span><a href="https://github.com/LoveJu1y/LaRA-VLA" target="_blank" rel="noreferrer">Code</a><a class="star-badge" href="https://github.com/LoveJu1y/LaRA-VLA" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/LoveJu1y/LaRA-VLA?style=flat&label=Stars" alt="GitHub stars for LaRA-VLA" /></a></div><p class="work-description">Latent reasoning and prediction for vision-language-action models, connecting hidden deliberation with reliable action generation.</p></div>
+          </article>
+          <article class="work-row">
+            <a class="work-image" href="pics/DIDO.png" target="_blank" rel="noreferrer"><span class="work-image-label">2026</span><img src="pics/DIDO.png" alt="DIDO research figure" /></a>
+            <div class="work-copy"><a class="work-title" href="https://arxiv.org/abs/2609.15570" target="_blank" rel="noreferrer">DIDO: Distilling Interaction-Centric Dynamics into One-Step Denoising for World Action Models.</a><p class="work-role">First Author <span></span> Arxiv 2026.06</p><div class="work-links"><a href="https://loveju1y.github.io/DIDO/" target="_blank" rel="noreferrer">Project</a><span>|</span><a href="https://arxiv.org/abs/2609.15570" target="_blank" rel="noreferrer">Paper</a></div><p class="work-description">Interaction-centric dynamics distilled into one-step denoising for efficient and reliable world action models.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="content-section experience-section">
+        <h2>Internship Experience</h2>
+        <div class="experience-list">
+          <article class="experience-item"><div class="experience-date">Sep. 2025 – Present</div><div><h3>Beijing Academy of Artificial Intelligence(BAAI)</h3><p>Joint Ph.D. student, Embodied Intelligence Research Center.</p><p class="muted">Mentors: Cheng Chi, Pengwei Wang, Shanghang Zhang<br />Research direction: VLA models and world models.</p></div></article>
+          <article class="experience-item"><div class="experience-date">Oct. 2024 – Jul. 2025</div><div><h3>Galbot</h3><p>Research intern.</p><p class="muted">Mentor: Zhizheng Zhang<br />Research direction: 6D object pose estimation and robot manipulation.</p></div></article>
+          <article class="experience-item"><div class="experience-date">Jun. 2024 – Aug. 2024</div><div><h3>4Paradigm</h3><p>Research intern.</p></div></article>
+        </div>
+      </section>
+
+      <section id="awards" class="content-section awards-section">
+        <h2>&#x1F3C6; Awards</h2>
+        <ul class="awards-list">
+          <li><span>[2026]</span> Merit Student, UCAS</li>
+          <li><span>[2024]</span> Science and Technology Innovation Excellence Scholarship, Tsinghua University</li>
+          <li><span>[2024]</span> Tsinghua University Challenge Cup, 2nd Prize</li>
+          <li><span>[2023]</span> Academic Excellence Scholarship, Tsinghua University</li>
+          <li><span>[2022]</span> ICRA RoboMaster Sim2Real Challenge, 3rd Prize</li>
+          <li><span>[2022]</span> Tsinghua University Artificial Intelligence Challenge, 3rd Prize</li>
+        </ul>
+      </section>
+
+      <footer class="footer"><span>© <span id="year"></span> LyuJing</span><span>Last updated: September 2026</span></footer>
+    </main>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
+

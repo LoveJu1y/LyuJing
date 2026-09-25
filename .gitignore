@@ -1,0 +1,15 @@
+﻿# Generated files and local-only artifacts
+build/
+tmp/
+output/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+CV.pdf
+CV_zh.pdf
+CV.tex
+CV_zh.tex
+jake-resume-template.tex
